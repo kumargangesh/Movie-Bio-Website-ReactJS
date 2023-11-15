@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.frontPageDiv{
+    /* border: 1px solid white; */
+    display: flex;
+    margin: 2% auto;
+    height: 650px;
+    width: 98%;
+}
+
+.navBarDiv{
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 620px;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navBarDiv button{
+    width: 66%;
+    height: 50px;
+    margin: 2% 17%;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: background .2s;
+}
+
+.navBarDiv button:hover{
+    background-color: rgb(101, 199, 3);
+    color: black;
+    border-radius: 6px;
+}
+
+.horiLine{
+    background-color: white;
+    width: 2px;
+    height: 500px;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.padManDiv1{
+    /* border: 1px solid white; */
+    height: 600px;
+    width: 68%;
+    margin-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.movieImage{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    /* border: 1px solid white; */
+    padding: 2%;
+    width: 30%;
+    height: 500px;
+}
+
+.movieImage img{
+    width: 100%;
+    height: 500px;
+}
+
+.movieDetails{
+    /* border: 1px solid white; */
+    width: 57%;
+    height: 580px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+
+.movieName{
+    /* border: 1px solid white; */
+    width: 88%;
+    margin: 2% auto;
+    height: auto;
+    padding: 2% 5%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.movieBio{
+    /* border: 1px solid white; */
+    margin: 3% auto;
+    width: 88%;
+    height: auto;
+    padding: 2%;
+    font-weight: bolder;
+    text-align: center;
+}
